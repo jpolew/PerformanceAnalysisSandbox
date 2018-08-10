@@ -1,0 +1,25 @@
+refined_list = []
+
+def get_year(date_string):
+    yr = int(date_string[:4])
+    return yr
+
+def get_month(date_string):
+    mnth = int(date_string[5:7])
+    return mnth
+
+def get_day(date_string):
+    dy = int(date_string[8:10])
+    return dy
+    
+def get_hour(date_string):
+    hr = int(date_string[11:13])
+    return hr
+
+def get_minutes(date_string):
+    mn = int(date_string[14:16])
+    return mn
+
+def get_seconds(date_string):
+    sc = int(date_string[17:19])
+    return sc
